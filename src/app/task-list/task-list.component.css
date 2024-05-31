@@ -1,0 +1,13 @@
+.list-group {
+    margin-top: 20px; /* Espacio superior */
+  }
+  
+  /* Opcional: Estilos adicionales */
+  .form-check-input {
+    margin-top: 0.25rem;
+  }
+  
+  .completed {
+    text-decoration: line-through; /* Tachado para las tareas completadas */
+  }
+  

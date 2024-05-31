@@ -1,0 +1,13 @@
+<div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <ul class="list-group">
+          <li class="list-group-item" *ngFor="let task of tasks">
+            <input class="form-check-input me-1" type="checkbox" [(ngModel)]="task.completed" (change)="taskStatusChanged(task)">
+            <span [class.completed]="task.completed">{{ task.name }}</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
